@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Keep the launch screen visually stable when the device uses dark mode. -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+    </style>
+
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+</resources>
