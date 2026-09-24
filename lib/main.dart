@@ -11,7 +11,7 @@ class Facebook extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: true,
+      debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system,
       home: SplashScreen(),
       
